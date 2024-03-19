@@ -1,5 +1,5 @@
 import { 
-  people01, 
+  skpal, 
   people02, 
   people03, 
   facebook, 
@@ -85,27 +85,11 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
-  },
-  {
-    id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
-  },
-  {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
-  },
+      "...The centre focuses to work for solving industrial problems bringing innovation in manufacturing. It also aims to facilitate the SMEs and Startups to its state-of-the-art infrastructure for their early prototyping...",
+    name: "Surjya K Pal",
+    title: "Chairperson, CoEAMT",
+    img: skpal
+  }
 ];
 
 export const stats = [
@@ -144,31 +128,23 @@ export const footerLinks = [
       }
     ],
   },
-  // {
-  //   title: "Newsletter",
-  //   links: [
-  //     {
-  //       name: "Help Center",
-  //       link: "https://www.hoobank.com/help-center/",
-  //     },
-  //     {
-  //       name: "Partners",
-  //       link: "https://www.hoobank.com/partners/",
-  //     },
-  //     {
-  //       name: "Suggestions",
-  //       link: "https://www.hoobank.com/suggestions/",
-  //     },
-  //     {
-  //       name: "Blog",
-  //       link: "https://www.hoobank.com/blog/",
-  //     },
-  //     {
-  //       name: "Newsletters",
-  //       link: "https://www.hoobank.com/newsletters/",
-  //     },
-  //   ],
-  // },
+  {
+    title: "Accomplishments",
+    links: [
+      {
+        name: "Published Papers",
+        link: "https://www.hoobank.com/help-center/",
+      },
+      {
+        name: "Patents",
+        link: "https://www.hoobank.com/partners/",
+      },
+      {
+        name: "Newsletters",
+        link: "https://www.hoobank.com/suggestions/",
+      }
+    ],
+  },
   // {
   //   title: "Partner",
   //   links: [

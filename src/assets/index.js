@@ -26,6 +26,7 @@ import people03 from "./people03.png";
 import logo2 from "./logo2.png";
 import logoaiir from "./logoaiir.svg";
 import robotic_arm from "./robotic-arm.png";
+import skpal from "./skpal.jpg";
 
 export {
   airbnb,
@@ -55,5 +56,6 @@ export {
   people03,
   logo2,
   logoaiir,
-  robotic_arm
+  robotic_arm,
+  skpal
 };
