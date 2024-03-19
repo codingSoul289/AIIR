@@ -61,23 +61,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Industrial Projects",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "More than 100 projects in different domains, having substantial impact in the Industry, striking their standards.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Modern Tech",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "State-of-the-art technology implemented and employed in all pertaining projects.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Consortium Partners",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Large consortiums including TATA, SAIL and BHEL have willingly partnered with us.",
   },
 ];
 

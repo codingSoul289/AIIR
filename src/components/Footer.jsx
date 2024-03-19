@@ -11,9 +11,9 @@ const Footer = () => {
           <img
             src={logoaiir}
             alt='logo'
-            className='w-[266px] h-[172px] object-contain'
+            className='w-[266px] h-[272px]'
           />
-          <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>
+          <p className={`${styles.paragraph2} mt-10 max-w-[310px]`}>
           An interdisciplinary industry-focused Research Platform at IIT Kharagpur.
           </p>
         </div>
