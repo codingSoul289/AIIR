@@ -8,11 +8,13 @@ const Footer = () => {
     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
       <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
         <div className='flex-1 flex flex-col justify-start mr-10'>
-          <img
-            src={logoaiir}
-            alt='logo'
-            className='w-[266px] h-[272px]'
-          />
+          <a href="/">
+            <img
+              src={logoaiir}
+              alt='logo'
+              className='w-[266px] h-[272px]'
+            />
+          </a>
           <p className={`${styles.paragraph2} mt-10 max-w-[310px]`}>
           An interdisciplinary industry-focused Research Platform at IIT Kharagpur.
           </p>
@@ -42,20 +44,22 @@ const Footer = () => {
       <div className='w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]'>
         {/* <p className='font-poppins font-normal text-center text-[18px] leading-[27px] text-white'> */}
           <p className='font-poppins font-normal text-center text-[18px] leading-[27px] text-white'>
-            Center of Excellence in Advanced Manufacturing Technology
+            <a href="https://www.coeamt.com/" target="_blank">Center of Excellence in Advanced Manufacturing Technology</a>
           </p>
           <p className='font-poppins font-normal text-center text-[18px] leading-[27px] text-white'>
-            IIT Kharagpur
+            <a href="https://www.iitkgp.ac.in" target="_blank">IIT Kharagpur</a>
           </p>
         {/* </p>   */}
         <div className='flex flex-row md:mt-0 mt-6'>
           {socialMedia.map((social, index) => (
-            <img
-              src={social.icon}
-              key={social.id}
-              alt={social.id}
-              className={`w-[21px] h-[21px] object-contain cursor-pointer ${index !== socialMedia.length - 1 ? 'mr-6' : 'mr-0'}`}
-            />
+            <a href={social.link} target="_blank">
+              <img
+                src={social.icon}
+                key={social.id}
+                alt={social.id}
+                className={`w-[21px] h-[21px] object-contain cursor-pointer ${index !== socialMedia.length - 1 ? 'mr-6' : 'mr-0'}`}
+              />
+            </a>
           ))}
         </div>    
       </div>

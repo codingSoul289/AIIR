@@ -61,6 +61,7 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
+    link: "/Projects",
     title: "Industrial Projects",
     content:
       "More than 100 projects in different domains, having substantial impact in the Industry, striking their standards.",
@@ -68,6 +69,7 @@ export const features = [
   {
     id: "feature-2",
     icon: shield,
+    link: "/Projects",
     title: "Modern Tech",
     content:
       "State-of-the-art technology implemented and employed in all pertaining projects.",
@@ -75,6 +77,7 @@ export const features = [
   {
     id: "feature-3",
     icon: send,
+    link: "/Projects",
     title: "Consortium Partners",
     content:
       "Large consortiums including TATA, SAIL and BHEL have willingly partnered with us.",
@@ -84,6 +87,7 @@ export const features = [
 export const feedback = [
   {
     id: "feedback-1",
+    link: "https://www.iitkgp.ac.in/department/ME/faculty/me-skpal",
     content:
       "...The centre focuses to work for solving industrial problems bringing innovation in manufacturing. It also aims to facilitate the SMEs and Startups to its state-of-the-art infrastructure for their early prototyping...",
     name: "Surjya K Pal",
@@ -96,16 +100,19 @@ export const stats = [
   {
     id: "stats-1",
     title: "Projects",
+    link: "/Projects",
     value: "100+",
   },
   {
     id: "stats-2",
     title: "Students",
+    link: "/Projects",
     value: "230+",
   },
   {
     id: "stats-3",
     title: "Consortium Partners",
+    link: "/Projects",
     value: "10+",
   },
 ];
@@ -145,19 +152,6 @@ export const footerLinks = [
       }
     ],
   },
-  // {
-  //   title: "Partner",
-  //   links: [
-  //     {
-  //       name: "Our Partner",
-  //       link: "https://www.hoobank.com/our-partner/",
-  //     },
-  //     {
-  //       name: "Become a Partner",
-  //       link: "https://www.hoobank.com/become-a-partner/",
-  //     },
-    // ],
-  // },
 ];
 
 export const socialMedia = [
